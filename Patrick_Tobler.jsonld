@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "Patrick_Tobler",
+    "motivations": "I’m passionate about helping blockchain technology reach its full potential. \n\nMy journey started as a computer science graduate, and I quickly found myself diving into the world of Web3. I built a minting infrastructure tool that has already helped thousands of businesses and creators launch their tokens and NFTs. That experience taught me the power of blockchain to solve real problems and create new opportunities.\n\nOn a personal level, I love the idea of being part of a community that’s building something bigger than any one of us. I believe in Cardano’s mission and want to contribute my experience in driving real-world adoption and innovation. Professionally, I want to bring my perspective from working at the intersection of business and blockchain to help shape decisions that make a positive impact. \n\nFor me, being a DRep is about using what I’ve learned to help Cardano grow and make a difference.",
+    "objectives": "As a DRep, my main goal is to help Cardano grow by bringing real businesses onto the blockchain to solve real-world problems. \n\nI’m all about making sure we spend the Treasury wisely, focusing on projects that provide real value and have a lasting impact. \n\nI also want to see more people getting involved in the decision-making process, making sure it’s open, transparent, and reflects the diversity of our community. Ultimately, I’m here to support an ecosystem where good ideas can thrive and everyone feels like they have a voice in shaping the future.",
+    "paymentAddress": "addr1q98qjgkvv6ul6p5tlxvq9zxklnj87y0lf4s0lta4km4s0scktx0qwk39jnq9a3krt20xa07fgkpf23q4wl3sqcgmrwps79n8u9",
+    "qualifications": "Founder & CEO of NMKR: I created NMKR, the largest NFT minting and tokenization platform on Cardano. Through NMKR, I’ve helped onboard thousands of users and businesses to Cardano, making it one of the biggest projects on the network.\n\nStake Pool Operator: Before launching NMKR, I operated the Pool of Babel, a Cardano stake pool that is now retired. This experience gave me a deep understanding of the technical and community aspects of the Cardano ecosystem.\n\nEducational Background: I studied Computer Science at Hochschule der Medien Stuttgart, where I developed a solid foundation in technology and innovation.\n\nCommunity Involvement: I was an early member of the Community & Memberships Committee for Intersect, contributing for several months in its early days (now retired), which helped me gain insight into community-driven governance.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "X/Twitter",
+        "uri": "https://x.com/Padierfind"
+      },
+      {
+        "@type": "Link",
+        "label": "LinkedIn",
+        "uri": "https://www.linkedin.com/in/patrick-tobler-6593b912b/"
+      },
+      {
+        "@type": "Link",
+        "label": "NMKR Website",
+        "uri": "https://nmkr.io/"
+      }
+    ]
+  }
+}
